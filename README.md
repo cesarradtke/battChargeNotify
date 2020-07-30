@@ -8,8 +8,7 @@ To prevent the cycle count being reached, it is recommended to unplug computer f
 
 The purpose of this script is notify you when reach this mark, suggesting that you unplug to avoid reaching 100 percent charge and, consequently, counting a charge cycle.
 
-Save the script file in ~/bin
-Save the launcher file in ~/Library/LaunchAgents
+Save the script file in ~/bin an the launcher file in ~/Library/LaunchAgents
 
 execute:
 
