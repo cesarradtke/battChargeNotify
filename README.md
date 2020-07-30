@@ -10,6 +10,7 @@ The purpose of this script is just notify you when reach this mark, suggesting t
 Instalation: 
 
 Save the script file (.scpt) in ~/bin an the launcher file (.plist) in ~/Library/LaunchAgents
+Edit .plist file, replacing YOURUSERNAME to your login name.
 
 execute:
 
