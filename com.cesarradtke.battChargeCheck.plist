@@ -9,7 +9,7 @@
         <key>ProgramArguments</key>
         <array>
                 <string>/usr/bin/osascript</string>
-                <string>/Users/radtke/bin/battery_info.scpt</string>
+                <string>/Users/YOURUSERNAME/bin/battery_info.scpt</string>
         </array>
         <key>RunAtLoad</key>
         <true/>
