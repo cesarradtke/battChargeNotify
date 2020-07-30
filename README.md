@@ -2,13 +2,14 @@
 
 Monitor battery charge to avoid counting a charge cycle.
 
-macOS running at Macbooks consider Normal batteries until reach 1000 charge cycles, 
+macOS running at Macbooks consider only as Normal batteries until reach 1000 charge cycles. To prevent cycle count being reached, it is recommended to unplug computer from AC with 80 or 90 percent charged. 
 
-To prevent the cycle count being reached, it is recommended to unplug computer from AC with 80 or 90 percent charged. 
+The purpose of this script is just notify you when reach this mark, suggesting that you unplug to avoid reaching 100 percent charge and, consequently, counting a new charge cycle.
 
-The purpose of this script is notify you when reach this mark, suggesting that you unplug to avoid reaching 100 percent charge and, consequently, counting a charge cycle.
 
-Save the script file in ~/bin an the launcher file in ~/Library/LaunchAgents
+Instalation: 
+
+Save the script file (.scpt) in ~/bin an the launcher file (.plist) in ~/Library/LaunchAgents
 
 execute:
 
