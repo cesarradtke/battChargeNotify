@@ -11,7 +11,7 @@ on run
 		
 		if chargeStatus = "charging" then
 			if battCharge > 90 then
-				
+				do shell script "afplay /System/Library/Sounds/Hero.aiff
 				display alert "Battery charge reach " & battCharge & " and still " & chargeStatus & ". Consider unplug AC adapter to prevent count a charge cycle. 
 
  Currently your Mac reached " & battCycle & " cycles."
