@@ -14,8 +14,8 @@ Edit .plist file, replacing YOURUSERNAME to your login name.
 
 execute:
 
+```
 launchctl unload ~/Library/LaunchAgents/com.cesarradtke.battChargeCheck
-
 launchctl load ~/Library/LaunchAgents/com.cesarradtke.battChargeCheck
-
+```
 note: At the first time, you must permit execute script in System & Privacy.
